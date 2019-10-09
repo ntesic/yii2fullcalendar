@@ -26,6 +26,9 @@
 	"require-dev": {
 		"codeception/codeception": "*"
 	},
+	"conflict": {
+		"bower-asset/fullcalendar": "^4.3.0"
+	},	
 	"config": {
 	    "process-timeout": 1800,
 	      "fxp-asset": {
